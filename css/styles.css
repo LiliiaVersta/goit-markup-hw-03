@@ -19,6 +19,11 @@ ul {
   margin-right: auto;
 }
 /* header */
+.container-header-container {
+  display: flex;
+  align-items: center;
+}
+
 .container-nav {
   display: flex;
   margin-left: auto;
@@ -60,10 +65,10 @@ ul {
   font-style: normal;
   display: flex;
 }
-.contacts-address {
+.list-address {
   display: flex;
   gap: 40px;
-  margin-left: auto;
+  margin-right: auto;
 }
 .contacts-studio {
   font-weight: 400;
