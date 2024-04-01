@@ -182,8 +182,9 @@ p {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.ourteam-container {
+.ourteam-container-list {
   text-align: center;
+  padding: 32px 0;
 }
 .ourteam-title {
   font-weight: 700;
@@ -198,12 +199,11 @@ p {
 .ourteam-ul {
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .section-list {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  padding: 32px 0;
 }
 .person-name {
   font-weight: 500;
