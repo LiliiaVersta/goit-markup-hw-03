@@ -273,7 +273,7 @@ p {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
-
+  margin-bottom: 16px;
   display: inline-block;
 }
 .footer-section {
@@ -290,5 +290,4 @@ p {
 }
 .footer-title {
   display: block;
-  margin-bottom: 16px;
 }
