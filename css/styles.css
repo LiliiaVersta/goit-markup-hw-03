@@ -37,7 +37,6 @@ p {
 /* header */
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
 }
 .container-header {
   display: flex;
@@ -116,6 +115,9 @@ p {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 48px;
 }
 .main-button {
   font-weight: 500;
@@ -227,6 +229,7 @@ p {
 /* Our Portfolio */
 .portfolio-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-container {
   padding: 32px 16px;
