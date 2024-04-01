@@ -159,7 +159,7 @@ p {
   gap: 24px;
 }
 .advantages-list-two {
-  width: ((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .advantages-title {
   font-weight: 500;
@@ -181,6 +181,10 @@ p {
 .section-ourteam {
   background-color: #f4f4fd;
 }
+.ourteam-container {
+  padding: 32px 0;
+  text-align: center;
+}
 .ourteam-title {
   font-weight: 700;
   font-size: 36px;
@@ -189,14 +193,18 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  padding: 120px 0;
+  margin-bottom: 8px;
 }
 .ourteam-ul {
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .section-list {
   background-color: #ffffff;
-  width: calc((100% - 4 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .person-name {
   font-weight: 500;
@@ -211,6 +219,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 /* Our Portfolio */
 .portfolio-section {
@@ -232,7 +241,7 @@ p {
 }
 .portfolio-list {
   border: 1px solid #e7e9fe;
-  width: ((100% - 3 * 24px) / 3);
+  width: calc((100% - 3 * 24px) / 3);
 }
 .name-portfolio {
   font-weight: 500;
